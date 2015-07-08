@@ -9,6 +9,11 @@ class Foo extends Kelemen\Observer
 {
     use Kelemen\ObserverBehavior;
 
+    public function __construct($bar)
+    {
+        $bar->attach($this);
+    }
+
     public function someFunction()
     {
         // process
