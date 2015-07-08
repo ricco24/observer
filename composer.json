@@ -1,0 +1,19 @@
+{
+    "name": "kelemen/observer",
+    "description": "Observer/observable classes and traits",
+    "license": "MIT",
+    "keywords": ["php","observer","observable"],
+    "authors": [
+        {
+            "name": "Samuel Kelemen",
+            "email": "kelemen.samuel@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">= 5.3.7"
+    },
+    "autoload": {
+        "classmap": ["src/"] 
+    }
+}
