@@ -1,7 +1,5 @@
 ### Observer
 
-Observable triggers observer methods.
-
 #### Usage
 
 ```php
